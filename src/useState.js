@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 
+//#30  useState practice
+
 const App = () => {
   //let count = 1;
   // const state = useState();
@@ -11,13 +13,7 @@ const App = () => {
     setCount(count + 1);
     //console. log('clicked ' + count++);
   };
-  // const purple = '#8e44ad';
-  // const [bg, setBg] = useState(purple);
 
-  // const bgChange = () => {
-  //   //console.log('clicked');//
-  //   //const purple = '#8e44ad';
-  // };
   return (
     <>
       <div style={{background: 'bg'}}>
@@ -29,3 +25,11 @@ const App = () => {
 };
 
 export default App;
+
+// const purple = '#8e44ad';
+// const [bg, setBg] = useState(purple);
+
+// const bgChange = () => {
+//   //console.log('clicked');//
+//   //const purple = '#8e44ad';
+// };
